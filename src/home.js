@@ -2,13 +2,14 @@ import pastaImage from './img/pasta-plate.jpg';
 
 function generateHome() {
 	const home = document.createElement('div');
+	home.classList.add('home-container');
 	
 	const restaurantName = document.createElement('h1');
 	restaurantName.textContent = 'Pasta restaurant';
 	home.appendChild(restaurantName);
 	
 	const restaurantQuote = document.createElement('p');
-	restaurantQuote.textContent = '"A traditional restaurant serving a really good pasta."';
+	restaurantQuote.textContent = '"A traditional restaurant serving really good pasta."';
 	home.appendChild(restaurantQuote);
 	
 	const pastaPlateImage = document.createElement('img');

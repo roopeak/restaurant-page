@@ -1,5 +1,7 @@
 function generateMenu() {
 	const menu = document.createElement('div');
+	menu.classList.add('menu-container');
+
 	const menuHeader = document.createElement('h1');
 	menuHeader.textContent = 'Menu';
 	menu.appendChild(menuHeader);
@@ -51,13 +53,14 @@ function generateMenu() {
 
 function generateMenuCard(dishName, description, price) {
 	const menuCard = document.createElement('div');
+	menuCard.classList.add('menu-card');
 	
 	menuCard.innerHTML = 
 		`
 			<div class='menu-card'>
-				<h2>${dishName}</h2>
+				<h3>${dishName}</h3>
 				<p><i>${description}</i></p>
-				<h3>${price}</h3>
+				<h4>${price}</h4>
 			</div>
 	`;
 
