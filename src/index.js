@@ -1,4 +1,4 @@
-import homeContent from './home.js';
+import loadHome from './home.js';
 import loadMenu from './menu.js';
 import loadContact from './contact.js';
 
@@ -8,7 +8,7 @@ const menuButton = document.querySelector('.menu-button');
 const contactButton = document.querySelector('.contact-button');
 
 homeButton.addEventListener('click', () => {
-  console.log('Hey');
+  loadHome();
 });
 
 menuButton.addEventListener('click', () => {
