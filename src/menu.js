@@ -1,8 +1,8 @@
 function generateMenu() {
 	const menu = document.createElement('div');
-	const helloWorld = document.createElement('h1');
-	helloWorld.textContent = 'This is a menu!';
-	menu.appendChild(helloWorld);
+	const menuHeader = document.createElement('h1');
+	menuHeader.textContent = 'Menu';
+	menu.appendChild(menuHeader);
 
 	return menu;
 }

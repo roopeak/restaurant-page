@@ -18,3 +18,5 @@ menuButton.addEventListener('click', () => {
 contactButton.addEventListener('click', () => {
   loadContact();
 });
+
+loadHome();
