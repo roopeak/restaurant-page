@@ -1,6 +1,7 @@
 import pastaImage from './img/pasta-plate.jpg';
 
 const content = document.querySelector('.content');
+content.innerHTML = '';
 
 const restaurantName = document.createElement('h1');
 restaurantName.textContent = 'Pasta restaurant';
