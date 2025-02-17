@@ -60,10 +60,8 @@ function generateMenuCard(dishName, description, price) {
 				<h3>${price}</h3>
 			</div>
 	`;
-			
-			// <img src='./img/${dishName}'
 
-			return menuCard;
+	return menuCard;
 }
 
 function loadMenu() {
