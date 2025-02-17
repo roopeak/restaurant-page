@@ -15,4 +15,24 @@ pastaPlateImage.src = pastaImage;
 
 content.appendChild(pastaPlateImage)
 
+const hoursContainer = document.createElement('div');
+hoursContainer.innerHTML = `
+    <h2>Hours</h2>
+    <p>Monday: 8am - 9pm</p>
+    <p>Tuesday: 8am - 9pm</p>
+    <p>Wednesday: 8am - 9pm</p>
+    <p>Thursday: 8am - 9pm</p>
+    <p>Friday: 8am - 11pm</p>
+    <p>Saturday: 8am - 11pm</p>
+    <p>Sunday: 10am - 9pm</p>
+`;
+content.appendChild(hoursContainer);
+
+const locationContainer = document.createElement('div');
+locationContainer.innerHTML = `
+    <h2>Location</h2>
+    <p>Yliopistonkatu 55, 33100 Tampere</p>
+`
+content.appendChild(locationContainer);
+
 export default content;
