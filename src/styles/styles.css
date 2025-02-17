@@ -1,0 +1,28 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;
+}
+
+.home-container {
+	text-align: center;
+}
+
+.menu-container {
+	text-align: center;
+}
+
+.menu-card {
+	width: 400px;
+	height: 200px;
+	text-align: center;
+}
+
+.menu-card > p {
+	font-size: 15px;
+}
+
+.contact-container {
+	text-align: center;
+}

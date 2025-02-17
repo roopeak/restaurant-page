@@ -1,6 +1,7 @@
 import loadHome from './home.js';
 import loadMenu from './menu.js';
 import loadContact from './contact.js';
+import './styles/styles.css';
 
 const homeButton = document.querySelector('.home-button');
 const menuButton = document.querySelector('.menu-button');
